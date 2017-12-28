@@ -349,7 +349,8 @@ blockquote{
 }
 #editorMessage{
   width: 50%;
-  padding-top: 35px
+  padding-top: 35px;
+  padding-left: 25px;
 }
 .authorImg{
   background-image: url(../images/author.png);
