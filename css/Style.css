@@ -93,9 +93,8 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
+	width: 55%;
 	text-align: right;
-	margin-right: 25px;
 }
 header nav ul {
 	list-style: none;
@@ -106,8 +105,7 @@ nav ul li {
 	color: #FFFFFF;
 	font-size: 14px;
 	text-align: left;
-	margin-right: 25px;
-	letter-spacing: 2px;
+	margin-right: 20px;
 	font-weight: bold;
 	transition: all 0.3s linear;
 }
@@ -244,13 +242,14 @@ ul li:hover a {
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 35px;
+  display: flex;
 }
 .footer_column {
-	width: 70%;
+	width: 50%;
 	align-content: center;
 	text-align: center;
 	padding-top: 30px;
-	float: center;
+  flex-direction: row-reverse;
 }
 footer .footer_column h3 {
 	color: #B3B3B3;
@@ -260,12 +259,6 @@ footer .footer_column p {
 	color: #717070;
 	background-color: #FFFFFF;
 }
-.cards {
-	width: 100%;
-	height: auto;
-	max-width: 400px;
-	max-height: 200px;
-}
 footer .footer_column p {
 	padding-left: 30px;
 	padding-right: 30px;
@@ -274,6 +267,12 @@ footer .footer_column p {
 	font-weight: lighter;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+footer .footer_column iframe {
+  width: 90%;
+  height: 80%;
+  display: block;
+  max-height: 450px;
 }
 .button {
 	width: 200px;
@@ -319,14 +318,8 @@ footer .footer_column p {
 	background-image: url(../images/wood.jpg);
 	background-repeat: repeat;
 }
-footer {
-	display: inline-block;
-}
 .hidden {
 	display: none;
-}
-iframe {
-	margin-right: 15%;
 }
 .rules {
 	display: none;
@@ -454,11 +447,6 @@ nav ul li {
 .gallery, .about, .author {
 	flex-direction: column;
 }
-iframe {
-	height: 200px;
-	width: 100%;
-	margin-right: 0;
-}
 .container {
 	width: 100%;
 }
@@ -471,6 +459,13 @@ iframe {
 .container img {
   display: inline;
 }
+footer {
+  flex-direction: column;
+}
+footer .footer_column iframe {
+  width: 100%;
+  height: 250px;
+}
 }
 
 /* Small Tablets */
@@ -478,7 +473,7 @@ iframe {
 .logo {
 	width: 100%;
 	text-align: center;
-	margin-top: 13px;
+	margin-top: 10px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -507,7 +502,7 @@ nav ul li {
 	width: 100%;
 	text-align: center;
 	padding-top: 8px;
-	padding-bottom: 8px;
+  padding-bottom: 3px;
 }
 .text_column {
 	width: 100%;
@@ -592,16 +587,18 @@ nav ul li {
 .container img {
   display: inline;
 }
-iframe {
-	height: 230px;
-	width: 80%;
-	margin-right: 10%;
-}
 .container {
 	width: 100%;
 }
 .authorImg {
   display: none;
+}
+footer {
+  flex-direction: column;
+}
+footer .footer_column iframe {
+  margin-right: 5%;
+  height: 300px;
 }
 }
 
@@ -628,22 +625,10 @@ iframe {
 	margin-top: 0px;
 	padding-top: 0px;
 }
-iframe {
-	height: 300px;
-	width: 70%;
-	margin-right: 15%;
-}
-.footer_column {
-  width: 80%;
-  margin-right: 10%;
-}
 }
 
 @media (min-width: 1096px){
 .thumbnail {
 	width: 33%;
-}
-.footer_column {
-  margin-right: 15%;
 }
 }
