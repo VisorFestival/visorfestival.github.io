@@ -354,8 +354,9 @@ blockquote{
   display: flex;
 }
 .container img {
-  width: 14%;
-  margin-right: 43%;
+  width: 50%;
+  margin-right: 25%;
+  display:none;
 }
 /* Mobile */
 @media (max-width : 527px ){
