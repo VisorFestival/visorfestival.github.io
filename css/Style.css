@@ -131,7 +131,7 @@ ul li:hover a {
 .hero {
 	background-color: #B3B3B3;
 	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-bottom: 50px;
 	background-image: url(../images/hero.jpg);
 	background-attachment: fixed;
 	background-size: cover;
@@ -354,9 +354,8 @@ blockquote{
   display: flex;
 }
 .container img {
-  width: 50%;
-  margin-right: 25%;
-  display: none;
+  width: 14%;
+  margin-right: 43%;
 }
 /* Mobile */
 @media (max-width : 527px ){
