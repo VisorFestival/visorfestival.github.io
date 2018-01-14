@@ -346,12 +346,13 @@ blockquote{
 .authorImg{
   background-image: url(../images/author.png);
   width: 50%;
-	height: inherit;
-	background-attachment: fixed;
-	background-size: 40%;
-	background-repeat: no-repeat;
-	background-position: 10% 50%;
+  height: inherit;
+  background-attachment: fixed;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
   display: flex;
+  margin-top: 5px;
 }
 .container img {
   width: 50%;
