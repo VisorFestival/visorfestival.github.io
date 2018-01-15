@@ -7,7 +7,7 @@ function register() {
 function redirToForm(){
   var terms = document.getElementById("accepted-rules");
   if (terms.checked) {
-    window.location.href = "https://goo.gl/forms/PCyvr4pZQL2JgfJw2";
+    window.location.href = "https://forms.zohopublic.com/visorfestival/form/test/formperma/nY9Xs_I3mzYWS3JakE1lccekuRoNW6crSrAndssAHfE";
   } else {
     alert("پذیرفتن مقررات الزامی است!")
   }
