@@ -1,8 +1,9 @@
 // JavaScript Document
 function register() {
-  var rules = document.getElementById("rules");
-  rules.style.display = "block";
-  window.location.hash = "rules";
+ // var rules = document.getElementById("rules");
+ // rules.style.display = "block";
+ // window.location.hash = "rules";
+ window.location.href = "http://visorfestival.ir/album/";
 }
 function redirToForm(){
   var terms = document.getElementById("accepted-rules");
